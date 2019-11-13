@@ -1,10 +1,10 @@
-package com.simitchiyski.cloud.gitconfigserver;
+package com.simitchiyski.cloud.config.server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GitConfigServerApplicationTests {
+class ConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {
