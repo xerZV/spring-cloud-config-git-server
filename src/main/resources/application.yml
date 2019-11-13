@@ -1,0 +1,20 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xerZV/spring-cloudconfig-wa-tolls
+          #username:
+          #password:
+          search-paths:
+            - 'station*'
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/xerZV/spring-cloudconfig-wa-tolls-perf
+              search-paths:
+                - 'station*'
