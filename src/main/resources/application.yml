@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xerZV/spring-cloudconfig-wa-tolls
+          uri: https://github.com/xerZV/spring-cloud-config-wa-tolls
           #username:
           #password:
           search-paths:
@@ -15,6 +15,6 @@ spring:
             perf:
               pattern:
                 - "*/perf"
-              uri: https://github.com/xerZV/spring-cloudconfig-wa-tolls-perf
+              uri: https://github.com/xerZV/spring-cloud-config-wa-tolls-perf
               search-paths:
                 - 'station*'
